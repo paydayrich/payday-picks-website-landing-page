@@ -19,7 +19,7 @@ const Footer: React.FC = () => {
           <div>
             <h3 className="text-white font-semibold mb-4">Support</h3>
             <ul className="space-y-2">
-              <li><a href="https://help.paydayfantasy.com/en/collections/13172089-policies" target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-white transition-colors">Help Center</a></li>
+              <li><a href="https://help.paydayfantasy.com/en/" target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-white transition-colors">Help Center</a></li>
               <li><a href="https://help.paydayfantasy.com/en/articles/11502074-terms-and-conditions" target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-white transition-colors">Terms and Conditions</a></li>
               <li><a href="https://help.paydayfantasy.com/en/articles/11500570-privacy-policy" target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-white transition-colors">Privacy Policy</a></li>
             </ul>
