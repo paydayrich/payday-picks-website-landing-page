@@ -1,0 +1,18 @@
+# Cloudflare Pages configuration
+name = "payday-fantasy-landing"
+compatibility_date = "2024-01-01"
+
+[build]
+command = "npm run build"
+cwd = "."
+watch_dir = "src"
+
+[[build.environment_variables]]
+NODE_VERSION = "18"
+
+[env.production]
+# Add your production environment variables here
+# WEBHOOK_URL = "your-webhook-url"
+
+[env.preview]
+# Add your preview environment variables here
